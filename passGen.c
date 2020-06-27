@@ -40,7 +40,7 @@ int main() {
             strncat(password, &ch, 1);
         }
     } else if (option == 3) {
-        char allChars[strlen(letters) + strlen(numbers) + 1];
+        char allChars[strlen(letters) + strlen(numbers) + strlen(special) + 1];
         strcpy(allChars, letters);
         strcat(allChars, numbers);
         strcat(allChars, special);
